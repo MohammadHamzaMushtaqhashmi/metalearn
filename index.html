@@ -1,0 +1,1804 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meta Earth Complete Course — Beginner to Advanced (Free)</title>
+  <meta name="description"
+    content="The most honest and complete Meta Earth course online. Learn what ME PASS, ME ID, MEC token and UBI really are — from beginner to advanced. Free, no hype.">
+  <meta name="keywords"
+    content="Meta Earth, ME PASS, MEC token, Meta Earth UBI, ME ID explained, Meta Earth review, Meta Earth legit, Meta Earth course, ME PASS tutorial, MEC crypto">
+  <meta name="author" content="Meta Earth Learning Guide">
+  <meta name="robots" content="index, follow">
+  <meta property="og:title" content="Meta Earth Complete Course — Beginner to Advanced">
+  <meta property="og:description"
+    content="The only honest, complete Meta Earth guide. What is ME PASS, MEC token, UBI — explained simply. No hype. No fake promises.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://YOUR-USERNAME.github.io/">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Meta Earth Complete Course — Free and Honest">
+  <meta name="twitter:description"
+    content="Beginner to advanced Meta Earth guide. What it really is, how it works, and what to realistically expect.">
+  <meta name="google-site-verification" content="Tj5EuDxD4FAzvlysnWO-mGhICYcI0InFaswcxrQOSk0" />
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=IBM+Plex+Mono:wght@400;500&family=Inter:wght@300;400;500&display=swap');
+
+    :root {
+      --bg: #0a0c10;
+      --surface: #111318;
+      --surface2: #181c24;
+      --border: #1e2330;
+      --accent: #3dffc0;
+      --accent2: #7c6dff;
+      --accent3: #ff6b6b;
+      --accent4: #ffc84a;
+      --text: #e8ecf4;
+      --muted: #6b7592;
+      --l1: #3dffc0;
+      --l2: #7c6dff;
+      --l3: #ff6b6b;
+      --final: #ffc84a;
+    }
+
+    *,
+    *::before,
+    *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: 'Inter', sans-serif;
+      font-weight: 300;
+      line-height: 1.75;
+      font-size: 15px;
+    }
+
+    /* HEADER */
+    header {
+      position: relative;
+      overflow: hidden;
+      padding: 80px 24px 60px;
+      text-align: center;
+      border-bottom: 1px solid var(--border);
+    }
+
+    header::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background:
+        radial-gradient(ellipse 60% 50% at 50% 0%, rgba(61, 255, 192, 0.07) 0%, transparent 70%),
+        radial-gradient(ellipse 40% 30% at 80% 80%, rgba(124, 109, 255, 0.05) 0%, transparent 60%);
+      pointer-events: none;
+    }
+
+    .header-badge {
+      display: inline-block;
+      font-family: 'IBM Plex Mono', monospace;
+      font-size: 11px;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      color: var(--accent);
+      border: 1px solid rgba(61, 255, 192, 0.3);
+      padding: 4px 14px;
+      border-radius: 100px;
+      margin-bottom: 24px;
+    }
+
+    header h1 {
+      font-family: 'Syne', sans-serif;
+      font-size: clamp(2rem, 6vw, 3.8rem);
+      font-weight: 800;
+      line-height: 1.1;
+      letter-spacing: -0.03em;
+      margin-bottom: 16px;
+    }
+
+    header h1 span {
+      color: var(--accent);
+    }
+
+    .header-sub {
+      font-size: 15px;
+      color: var(--muted);
+      max-width: 560px;
+      margin: 0 auto 40px;
+      font-weight: 400;
+    }
+
+    /* NAV PILLS */
+    .nav-pills {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      justify-content: center;
+      padding: 0 24px 40px;
+      border-bottom: 1px solid var(--border);
+      background: var(--bg);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      padding-top: 16px;
+    }
+
+    .nav-pills a {
+      font-family: 'IBM Plex Mono', monospace;
+      font-size: 11px;
+      letter-spacing: 0.08em;
+      text-decoration: none;
+      padding: 6px 14px;
+      border-radius: 100px;
+      border: 1px solid var(--border);
+      color: var(--muted);
+      transition: all 0.2s;
+    }
+
+    .nav-pills a:hover {
+      border-color: var(--accent);
+      color: var(--accent);
+    }
+
+    .nav-pills a.l1 {
+      border-color: rgba(61, 255, 192, 0.3);
+      color: var(--l1);
+    }
+
+    .nav-pills a.l2 {
+      border-color: rgba(124, 109, 255, 0.3);
+      color: var(--l2);
+    }
+
+    .nav-pills a.l3 {
+      border-color: rgba(255, 107, 107, 0.3);
+      color: var(--l3);
+    }
+
+    .nav-pills a.lf {
+      border-color: rgba(255, 200, 74, 0.3);
+      color: var(--final);
+    }
+
+    /* LAYOUT */
+    main {
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 48px 24px 80px;
+    }
+
+    /* LEVEL HEADERS */
+    .level-header {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      margin: 64px 0 32px;
+      padding: 24px 28px;
+      border-radius: 12px;
+      border: 1px solid;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .level-header::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      opacity: 0.04;
+    }
+
+    .level-header.l1 {
+      border-color: rgba(61, 255, 192, 0.25);
+    }
+
+    .level-header.l1::before {
+      background: var(--l1);
+    }
+
+    .level-header.l2 {
+      border-color: rgba(124, 109, 255, 0.25);
+    }
+
+    .level-header.l2::before {
+      background: var(--l2);
+    }
+
+    .level-header.l3 {
+      border-color: rgba(255, 107, 107, 0.25);
+    }
+
+    .level-header.l3::before {
+      background: var(--l3);
+    }
+
+    .level-header.lf {
+      border-color: rgba(255, 200, 74, 0.25);
+    }
+
+    .level-header.lf::before {
+      background: var(--final);
+    }
+
+    .level-number {
+      font-family: 'Syne', sans-serif;
+      font-size: 3rem;
+      font-weight: 800;
+      line-height: 1;
+      opacity: 0.2;
+      flex-shrink: 0;
+    }
+
+    .level-header.l1 .level-number {
+      color: var(--l1);
+    }
+
+    .level-header.l2 .level-number {
+      color: var(--l2);
+    }
+
+    .level-header.l3 .level-number {
+      color: var(--l3);
+    }
+
+    .level-header.lf .level-number {
+      color: var(--final);
+    }
+
+    .level-meta {
+      flex: 1;
+    }
+
+    .level-tag {
+      font-family: 'IBM Plex Mono', monospace;
+      font-size: 10px;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      margin-bottom: 4px;
+    }
+
+    .l1 .level-tag {
+      color: var(--l1);
+    }
+
+    .l2 .level-tag {
+      color: var(--l2);
+    }
+
+    .l3 .level-tag {
+      color: var(--l3);
+    }
+
+    .lf .level-tag {
+      color: var(--final);
+    }
+
+    .level-title {
+      font-family: 'Syne', sans-serif;
+      font-size: 1.4rem;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+    }
+
+    /* SECTIONS */
+    section {
+      margin-bottom: 48px;
+    }
+
+    h2 {
+      font-family: 'Syne', sans-serif;
+      font-size: 1.15rem;
+      font-weight: 700;
+      letter-spacing: -0.01em;
+      margin-bottom: 16px;
+      margin-top: 36px;
+      color: var(--text);
+      padding-bottom: 8px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    h3 {
+      font-family: 'Syne', sans-serif;
+      font-size: 1rem;
+      font-weight: 600;
+      margin-bottom: 10px;
+      margin-top: 24px;
+      color: var(--accent);
+    }
+
+    .l2-section h3 {
+      color: var(--l2);
+    }
+
+    .l3-section h3 {
+      color: var(--l3);
+    }
+
+    .lf-section h3 {
+      color: var(--final);
+    }
+
+    p {
+      margin-bottom: 14px;
+      color: #c4cad8;
+      font-weight: 400;
+    }
+
+    ul,
+    ol {
+      padding-left: 20px;
+      margin-bottom: 16px;
+    }
+
+    li {
+      margin-bottom: 8px;
+      color: #c4cad8;
+      font-weight: 400;
+    }
+
+    li strong,
+    p strong {
+      color: var(--text);
+      font-weight: 500;
+    }
+
+    /* CALLOUT BOXES */
+    .callout {
+      border-radius: 10px;
+      padding: 18px 22px;
+      margin: 20px 0;
+      border-left: 3px solid;
+      background: var(--surface);
+    }
+
+    .callout.info {
+      border-color: var(--accent);
+    }
+
+    .callout.info .callout-label {
+      color: var(--accent);
+    }
+
+    .callout.warn {
+      border-color: var(--accent4);
+    }
+
+    .callout.warn .callout-label {
+      color: var(--accent4);
+    }
+
+    .callout.danger {
+      border-color: var(--accent3);
+    }
+
+    .callout.danger .callout-label {
+      color: var(--accent3);
+    }
+
+    .callout.purple {
+      border-color: var(--accent2);
+    }
+
+    .callout.purple .callout-label {
+      color: var(--accent2);
+    }
+
+    .callout-label {
+      font-family: 'IBM Plex Mono', monospace;
+      font-size: 10px;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      font-weight: 500;
+      margin-bottom: 8px;
+    }
+
+    .callout p {
+      margin-bottom: 0;
+      font-size: 14px;
+    }
+
+    .callout ul {
+      margin-bottom: 0;
+    }
+
+    .callout li {
+      font-size: 14px;
+    }
+
+    /* ANALOGY */
+    .analogy {
+      background: var(--surface2);
+      border-radius: 10px;
+      padding: 18px 22px;
+      margin: 20px 0;
+      border: 1px solid var(--border);
+      font-style: italic;
+      font-size: 14px;
+      color: var(--muted);
+      position: relative;
+      padding-left: 46px;
+    }
+
+    .analogy::before {
+      content: '💡';
+      position: absolute;
+      left: 16px;
+      top: 18px;
+      font-style: normal;
+    }
+
+    /* SUMMARY BOX */
+    .summary-box {
+      border-radius: 12px;
+      padding: 24px 28px;
+      margin: 32px 0 48px;
+      border: 1px solid;
+    }
+
+    .summary-box.l1 {
+      background: rgba(61, 255, 192, 0.04);
+      border-color: rgba(61, 255, 192, 0.2);
+    }
+
+    .summary-box.l2 {
+      background: rgba(124, 109, 255, 0.04);
+      border-color: rgba(124, 109, 255, 0.2);
+    }
+
+    .summary-box.l3 {
+      background: rgba(255, 107, 107, 0.04);
+      border-color: rgba(255, 107, 107, 0.2);
+    }
+
+    .summary-box.lf {
+      background: rgba(255, 200, 74, 0.04);
+      border-color: rgba(255, 200, 74, 0.2);
+    }
+
+    .summary-box .summary-label {
+      font-family: 'IBM Plex Mono', monospace;
+      font-size: 10px;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      margin-bottom: 12px;
+    }
+
+    .summary-box.l1 .summary-label {
+      color: var(--l1);
+    }
+
+    .summary-box.l2 .summary-label {
+      color: var(--l2);
+    }
+
+    .summary-box.l3 .summary-label {
+      color: var(--l3);
+    }
+
+    .summary-box.lf .summary-label {
+      color: var(--final);
+    }
+
+    .summary-box h4 {
+      font-family: 'Syne', sans-serif;
+      font-size: 1rem;
+      font-weight: 700;
+      margin-bottom: 14px;
+      color: var(--text);
+    }
+
+    /* COMPARISON TABLE */
+    .compare-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 20px 0;
+      font-size: 13px;
+    }
+
+    .compare-table th {
+      background: var(--surface2);
+      padding: 10px 14px;
+      text-align: left;
+      font-family: 'IBM Plex Mono', monospace;
+      font-size: 11px;
+      letter-spacing: 0.08em;
+      color: var(--muted);
+      text-transform: uppercase;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .compare-table td {
+      padding: 10px 14px;
+      border-bottom: 1px solid var(--border);
+      color: #c4cad8;
+      vertical-align: top;
+    }
+
+    .compare-table tr:hover td {
+      background: var(--surface);
+    }
+
+    .compare-table .feature {
+      font-weight: 500;
+      color: var(--text);
+    }
+
+    /* GLOSSARY */
+    .glossary-grid {
+      display: grid;
+      gap: 12px;
+      margin: 16px 0;
+    }
+
+    .glossary-item {
+      background: var(--surface);
+      border-radius: 8px;
+      padding: 14px 18px;
+      border: 1px solid var(--border);
+    }
+
+    .glossary-term {
+      font-family: 'IBM Plex Mono', monospace;
+      font-size: 12px;
+      color: var(--accent);
+      font-weight: 500;
+      margin-bottom: 4px;
+    }
+
+    .glossary-def {
+      font-size: 13.5px;
+      color: #b0b8cc;
+      margin: 0;
+    }
+
+    /* YES/NO GRID */
+    .yn-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 16px;
+      margin: 20px 0;
+    }
+
+    @media (max-width: 580px) {
+      .yn-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    .yn-box {
+      border-radius: 10px;
+      padding: 18px 20px;
+      border: 1px solid;
+    }
+
+    .yn-box.yes {
+      border-color: rgba(61, 255, 192, 0.25);
+      background: rgba(61, 255, 192, 0.04);
+    }
+
+    .yn-box.no {
+      border-color: rgba(255, 107, 107, 0.25);
+      background: rgba(255, 107, 107, 0.04);
+    }
+
+    .yn-label {
+      font-family: 'IBM Plex Mono', monospace;
+      font-size: 11px;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      margin-bottom: 10px;
+      font-weight: 500;
+    }
+
+    .yn-box.yes .yn-label {
+      color: var(--l1);
+    }
+
+    .yn-box.no .yn-label {
+      color: var(--l3);
+    }
+
+    .yn-box ul {
+      padding-left: 16px;
+      margin: 0;
+    }
+
+    .yn-box li {
+      font-size: 13.5px;
+      margin-bottom: 6px;
+    }
+
+
+    /* STICKY BUY BAR */
+    .sticky-bar {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background: rgba(10, 12, 16, 0.97);
+      backdrop-filter: blur(12px);
+      border-top: 1px solid var(--border);
+      padding: 12px 24px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      z-index: 999;
+      flex-wrap: wrap;
+    }
+
+    .sticky-bar-text {
+      font-size: 13px;
+      color: var(--muted);
+    }
+
+    .sticky-bar-text strong {
+      color: var(--text);
+    }
+
+    .btn-buy {
+      display: inline-block;
+      background: var(--accent);
+      color: #0a0c10;
+      font-family: 'Syne', sans-serif;
+      font-weight: 700;
+      font-size: 13px;
+      padding: 10px 22px;
+      border-radius: 8px;
+      text-decoration: none;
+      white-space: nowrap;
+      transition: opacity 0.2s;
+      flex-shrink: 0;
+    }
+
+    .btn-buy:hover {
+      opacity: 0.85;
+    }
+
+    .btn-secondary {
+      display: inline-block;
+      border: 1px solid var(--border);
+      color: var(--muted);
+      font-family: 'IBM Plex Mono', monospace;
+      font-size: 11px;
+      padding: 9px 16px;
+      border-radius: 8px;
+      text-decoration: none;
+      transition: all 0.2s;
+      white-space: nowrap;
+      flex-shrink: 0;
+    }
+
+    .btn-secondary:hover {
+      border-color: var(--accent);
+      color: var(--accent);
+    }
+
+    /* AFFILIATE SECTION */
+    .affiliate-section {
+      margin: 48px 0;
+      padding: 28px;
+      border-radius: 12px;
+      border: 1px solid var(--border);
+      background: var(--surface);
+    }
+
+    .affiliate-label {
+      font-family: 'IBM Plex Mono', monospace;
+      font-size: 10px;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      color: var(--muted);
+      margin-bottom: 4px;
+    }
+
+    .affiliate-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 12px;
+      margin-top: 16px;
+    }
+
+    .affiliate-card {
+      background: var(--surface2);
+      border-radius: 10px;
+      padding: 16px 18px;
+      border: 1px solid var(--border);
+      text-decoration: none;
+      display: block;
+      transition: border-color 0.2s;
+    }
+
+    .affiliate-card:hover {
+      border-color: var(--accent);
+    }
+
+    .affiliate-card-icon {
+      font-size: 20px;
+      margin-bottom: 8px;
+    }
+
+    .affiliate-card-name {
+      font-family: 'Syne', sans-serif;
+      font-size: 14px;
+      font-weight: 700;
+      color: var(--text);
+      margin-bottom: 4px;
+    }
+
+    .affiliate-card-desc {
+      font-size: 12px;
+      color: var(--muted);
+      line-height: 1.5;
+    }
+
+    .affiliate-card-tag {
+      display: inline-block;
+      margin-top: 8px;
+      font-family: 'IBM Plex Mono', monospace;
+      font-size: 10px;
+      color: var(--accent);
+      letter-spacing: 0.08em;
+    }
+
+    /* SHARE SECTION */
+    .share-section {
+      text-align: center;
+      padding: 32px 24px;
+      border-top: 1px solid var(--border);
+      border-bottom: 1px solid var(--border);
+      margin: 48px 0;
+    }
+
+    .share-title {
+      font-family: 'Syne', sans-serif;
+      font-size: 1.1rem;
+      font-weight: 700;
+      margin-bottom: 8px;
+    }
+
+    .share-sub {
+      font-size: 13px;
+      color: var(--muted);
+      margin-bottom: 20px;
+    }
+
+    .share-buttons {
+      display: flex;
+      gap: 10px;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    .share-btn {
+      display: inline-block;
+      padding: 9px 18px;
+      border-radius: 8px;
+      font-family: 'IBM Plex Mono', monospace;
+      font-size: 12px;
+      text-decoration: none;
+      border: 1px solid var(--border);
+      color: var(--muted);
+      transition: all 0.2s;
+    }
+
+    .share-btn:hover {
+      border-color: var(--accent);
+      color: var(--accent);
+    }
+
+    /* PDF CTA BOX */
+    .pdf-cta {
+      text-align: center;
+      padding: 40px 28px;
+      border-radius: 16px;
+      border: 1px solid rgba(61, 255, 192, 0.2);
+      background: rgba(61, 255, 192, 0.04);
+      margin: 48px 0;
+    }
+
+    .pdf-cta-icon {
+      font-size: 2rem;
+      margin-bottom: 12px;
+    }
+
+    .pdf-cta h3 {
+      font-family: 'Syne', sans-serif;
+      font-size: 1.2rem;
+      font-weight: 700;
+      color: var(--text) !important;
+      margin-bottom: 8px;
+      margin-top: 0;
+    }
+
+    .pdf-cta p {
+      font-size: 14px;
+      color: var(--muted);
+      margin-bottom: 20px;
+    }
+
+    .pdf-cta .btn-buy {
+      font-size: 15px;
+      padding: 13px 32px;
+    }
+
+    body {
+      padding-bottom: 70px;
+    }
+
+    /* FOOTER */
+    footer {
+      border-top: 1px solid var(--border);
+      padding: 32px 24px;
+      text-align: center;
+      color: var(--muted);
+      font-family: 'IBM Plex Mono', monospace;
+      font-size: 11px;
+      letter-spacing: 0.08em;
+    }
+
+    /* DIVIDER */
+    .divider {
+      border: none;
+      border-top: 1px solid var(--border);
+      margin: 40px 0;
+    }
+
+    /* MONO INLINE */
+    code {
+      font-family: 'IBM Plex Mono', monospace;
+      font-size: 12px;
+      background: var(--surface2);
+      border: 1px solid var(--border);
+      padding: 2px 7px;
+      border-radius: 4px;
+      color: var(--accent);
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <div class="header-badge">Complete Learning Course — 2025</div>
+    <h1>Understanding<br><span>Meta Earth</span></h1>
+    <p class="header-sub">From absolute beginner to advanced understanding. Neutral, educational, and honest — no hype.
+    </p>
+  </header>
+
+  <nav class="nav-pills">
+    <a href="#level1" class="l1">Level 1 · Beginner</a>
+    <a href="#level2" class="l2">Level 2 · Intermediate</a>
+    <a href="#level3" class="l3">Level 3 · Advanced</a>
+    <a href="#final" class="lf">Final Section</a>
+  </nav>
+
+  <main>
+
+    <!-- ===================== LEVEL 1 ===================== -->
+    <div id="level1" class="level-header l1">
+      <div class="level-number">01</div>
+      <div class="level-meta">
+        <div class="level-tag">Foundations</div>
+        <div class="level-title">Beginner — What Is Meta Earth?</div>
+      </div>
+    </div>
+
+    <section>
+      <h2>1.1 What Is Meta Earth?</h2>
+      <p>Meta Earth is a blockchain-based project that aims to build a global digital economy where regular people can
+        participate, earn rewards, and have a verified digital identity. It is developed by the Metaearth Association,
+        founded by Patrick Oerer — a finance professional with a background in global banking.</p>
+
+      <p>In simple terms, Meta Earth wants to create a system where:</p>
+      <ul>
+        <li>Every verified real person gets a unique digital identity (<strong>ME ID</strong>)</li>
+        <li>Every verified person gets access to a small daily income in digital tokens (<strong>UBI</strong>)</li>
+        <li>Everyone can participate in a growing ecosystem of apps, finance tools, and services</li>
+      </ul>
+
+      <div class="analogy">
+        Think of it like a global digital club. To join, you prove you are a real, unique person. Once inside, the club
+        gives you a membership card (ME ID), a small daily allowance (UBI), and access to services the club offers.
+      </div>
+
+      <h2>1.2 What Problem Is Meta Earth Trying to Solve?</h2>
+      <p>The project targets two main problems it believes exist in today's world:</p>
+
+      <h3>Problem 1 — Growing Wealth Inequality</h3>
+      <p>As technology (especially AI and automation) replaces human jobs, many people may be left without stable
+        income. Traditional financial systems do not serve billions of people who are unbanked or in developing
+        countries.</p>
+
+      <h3>Problem 2 — Lack of Digital Identity</h3>
+      <p>Over a billion people worldwide have no reliable form of identity. Without ID, people cannot access banking,
+        healthcare, or government services. Meta Earth wants to solve this using blockchain-based digital identity that
+        anyone with a smartphone can access.</p>
+
+      <div class="callout info">
+        <div class="callout-label">Plain Language Summary</div>
+        <p>Meta Earth is trying to answer: "What if every person on Earth could prove they exist digitally, and earn a
+          small basic income just for being a verified human being?"</p>
+      </div>
+
+      <h2>1.3 What Is ME PASS? (And What It Is NOT)</h2>
+
+      <h3>What ME PASS IS:</h3>
+      <ul>
+        <li>A <strong>mobile app</strong> (available on iOS and Android) developed by Meta Earth</li>
+        <li>A <strong>digital identity wallet</strong> — it stores your ME ID (your verified digital identity)</li>
+        <li>A <strong>crypto wallet</strong> — it holds your MEC tokens and other digital assets</li>
+        <li>A <strong>gateway</strong> to Meta Earth's ecosystem — you access UBI, check-ins, staking, and apps through
+          it</li>
+        <li>A place to complete <strong>KYC</strong> (Know Your Customer — the identity verification process)</li>
+      </ul>
+
+      <h3>What ME PASS Is NOT:</h3>
+      <ul>
+        <li>NOT a bank account or regulated financial product</li>
+        <li>NOT a guaranteed income source</li>
+        <li>NOT an investment platform with guaranteed returns</li>
+        <li>NOT the same as owning Bitcoin or other independent cryptocurrencies</li>
+        <li>NOT a government-backed identity document</li>
+      </ul>
+
+      <div class="callout warn">
+        <div class="callout-label">Important Distinction</div>
+        <p>ME PASS is the app. Meta Earth is the project. ME ID is your identity. MEC is the token. These are four
+          different things that beginners often confuse.</p>
+      </div>
+
+      <h2>1.4 Is Meta Earth a Blockchain Like Bitcoin?</h2>
+      <p>This is one of the most common beginner questions. The answer is: <strong>sort of, but with important
+          differences.</strong></p>
+
+      <table class="compare-table">
+        <thead>
+          <tr>
+            <th>Feature</th>
+            <th>Bitcoin</th>
+            <th>Meta Earth</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="feature">Has its own blockchain?</td>
+            <td>Yes (launched 2009)</td>
+            <td>Building ME Network (launched 2025)</td>
+          </tr>
+          <tr>
+            <td class="feature">Fully decentralized?</td>
+            <td>Yes — no owner</td>
+            <td>Partially — company still controls key parts</td>
+          </tr>
+          <tr>
+            <td class="feature">Native token</td>
+            <td>BTC</td>
+            <td>MEC</td>
+          </tr>
+          <tr>
+            <td class="feature">Purpose</td>
+            <td>Digital money / store of value</td>
+            <td>Identity + UBI + ecosystem</td>
+          </tr>
+          <tr>
+            <td class="feature">Token supply</td>
+            <td>21 million max</td>
+            <td>20 billion max</td>
+          </tr>
+          <tr>
+            <td class="feature">Verification needed?</td>
+            <td>No — anonymous</td>
+            <td>Yes — requires KYC identity check</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <div class="analogy">
+        Bitcoin is like digital gold that anyone can mine and trade anonymously. Meta Earth is more like a digital
+        membership organization where you must prove your identity first, and then receive member benefits.
+      </div>
+
+      <h2>1.5 Basic Glossary</h2>
+      <div class="glossary-grid">
+        <div class="glossary-item">
+          <div class="glossary-term">BLOCKCHAIN</div>
+          <p class="glossary-def">A shared digital record book that thousands of computers maintain simultaneously. No
+            single person controls it. Once written, records cannot easily be changed.</p>
+        </div>
+        <div class="glossary-item">
+          <div class="glossary-term">UBI (Universal Basic Income)</div>
+          <p class="glossary-def">A concept where every person receives a regular small income regardless of employment.
+            In Meta Earth's context, this is delivered in MEC tokens rather than government money.</p>
+        </div>
+        <div class="glossary-item">
+          <div class="glossary-term">DIGITAL IDENTITY (ME ID)</div>
+          <p class="glossary-def">A unique, verified record of who you are stored on a blockchain. Like a digital
+            passport, but owned by you rather than a government.</p>
+        </div>
+        <div class="glossary-item">
+          <div class="glossary-term">KYC (Know Your Customer)</div>
+          <p class="glossary-def">A verification process where you submit personal information (usually a government ID
+            and selfie) to prove you are a real, unique person.</p>
+        </div>
+        <div class="glossary-item">
+          <div class="glossary-term">TOKEN (MEC)</div>
+          <p class="glossary-def">Meta Earth Coin — the digital currency used within the Meta Earth ecosystem. It exists
+            on the ME Network blockchain.</p>
+        </div>
+        <div class="glossary-item">
+          <div class="glossary-term">STAKING</div>
+          <p class="glossary-def">Locking up tokens to earn rewards over time. Like putting money in a savings account,
+            except the "bank" is a blockchain protocol.</p>
+        </div>
+        <div class="glossary-item">
+          <div class="glossary-term">APY (Annual Percentage Yield)</div>
+          <p class="glossary-def">The yearly rate of return you earn on staked tokens. For example, 12.5% APY means for
+            every 100 MEC staked, you earn 12.5 MEC over one year (before any price changes).</p>
+        </div>
+        <div class="glossary-item">
+          <div class="glossary-term">WEB3</div>
+          <p class="glossary-def">The next phase of the internet where users own their data and digital assets, and
+            services run on blockchains rather than central company servers.</p>
+        </div>
+      </div>
+
+      <h2>1.6 Common Misunderstandings Beginners Have</h2>
+
+      <div class="callout danger">
+        <div class="callout-label">Misunderstanding #1</div>
+        <p><strong>"The UBI means I'll earn real money every day."</strong><br>Reality: You earn MEC tokens, not cash.
+          The value of MEC tokens fluctuates and depends on the market. Whether those tokens translate to meaningful
+          cash value is uncertain.</p>
+      </div>
+
+      <div class="callout danger">
+        <div class="callout-label">Misunderstanding #2</div>
+        <p><strong>"Meta Earth is like Bitcoin — my tokens will definitely go up in value."</strong><br>Reality: Token
+          prices can go up or down significantly. Many blockchain projects have seen tokens drop to near zero. Past or
+          projected yields do not guarantee future value.</p>
+      </div>
+
+      <div class="callout danger">
+        <div class="callout-label">Misunderstanding #3</div>
+        <p><strong>"It's completely free so there's no risk."</strong><br>Reality: You share personal identity documents
+          during KYC. There are privacy and data risks to consider, even with a "free" app.</p>
+      </div>
+
+      <div class="callout danger">
+        <div class="callout-label">Misunderstanding #4</div>
+        <p><strong>"The 12.5% APY is like bank interest — it's guaranteed."</strong><br>Reality: The 12.5% APY is paid
+          in MEC tokens. If MEC's price drops, the real-world value of those yields could be much less than the
+          percentage suggests.</p>
+      </div>
+
+      <div class="callout danger">
+        <div class="callout-label">Misunderstanding #5</div>
+        <p><strong>"This is fully decentralized — no one controls it."</strong><br>Reality: As of 2025, Meta Earth is
+          still largely controlled by the founding company and organization. True decentralization is a stated goal, not
+          yet a reality.</p>
+      </div>
+    </section>
+
+    <div class="summary-box l1">
+      <div class="summary-label">Level 1 Summary</div>
+      <h4>What You Should Know After This Level</h4>
+      <ul>
+        <li>Meta Earth is a project building a blockchain-based digital identity and UBI ecosystem</li>
+        <li>ME PASS is a mobile app — your gateway to the ecosystem</li>
+        <li>ME ID is your verified digital identity; MEC is the token</li>
+        <li>It shares some concepts with Bitcoin but operates very differently</li>
+        <li>UBI here means token rewards, not guaranteed cash income</li>
+        <li>There are real risks even with a free sign-up</li>
+      </ul>
+    </div>
+
+    <!-- ===================== LEVEL 2 ===================== -->
+    <div id="level2" class="level-header l2">
+      <div class="level-number">02</div>
+      <div class="level-meta">
+        <div class="level-tag">How It Works</div>
+        <div class="level-title">Intermediate — The Meta Earth Ecosystem</div>
+      </div>
+    </div>
+
+    <section class="l2-section">
+      <h2>2.1 How the Meta Earth Ecosystem Functions</h2>
+      <p>Meta Earth is not one single product — it is an ecosystem of interconnected components. Here is how they fit
+        together:</p>
+
+      <ul>
+        <li><strong>ME Network</strong> — The underlying blockchain (Version 2.0 launched May 2025). This is the
+          technical infrastructure everything runs on.</li>
+        <li><strong>ME ID</strong> — Your decentralized digital identity, stored on the blockchain.</li>
+        <li><strong>ME PASS</strong> — The mobile app connecting you to all services.</li>
+        <li><strong>MEC Token</strong> — The native currency flowing through the system.</li>
+        <li><strong>UBI Layer</strong> — The mechanism that distributes daily token rewards to verified users.</li>
+        <li><strong>DApps / Mini-Apps</strong> — Third-party apps built on top of ME Network.</li>
+      </ul>
+
+      <div class="analogy">
+        Think of ME Network as the roads. MEC tokens as the fuel. ME PASS as your car. ME ID as your driver's license.
+        And the apps and services are the destinations you can drive to.
+      </div>
+
+      <h2>2.2 How ME PASS Works Internally</h2>
+
+      <h3>Step 1 — Download and Account Creation</h3>
+      <p>You download the ME PASS app, create an account with an email or phone number, and set a secure passphrase.
+        This creates a basic account but does NOT yet give you full access to UBI or staking rewards.</p>
+
+      <h3>Step 2 — KYC Verification (ME ID)</h3>
+      <p>You submit a government-issued ID document and complete a face verification (liveness check). Meta Earth uses
+        <strong>Zero-Knowledge Proofs (ZKPs)</strong> and <strong>Fully Homomorphic Encryption (FHE)</strong> — advanced
+        cryptographic techniques that let the system verify your identity without storing raw personal data in a
+        readable form.</p>
+
+      <p>Once approved, you receive your unique <strong>ME ID</strong> — a tamper-proof digital identity on the
+        blockchain. Each ME ID is tied to one real person — the system is designed to prevent one person from having
+        multiple IDs.</p>
+
+      <h3>Step 3 — UBI Activation</h3>
+      <p>After KYC is complete, you receive <strong>1 MEC permanently staked</strong> on your behalf. This staked MEC
+        generates daily yield at a stated 12.5% APY. You do not need to do anything — the yield accumulates
+        automatically.</p>
+
+      <h3>Step 4 — Daily Check-ins and Additional Rewards</h3>
+      <p>Beyond UBI, users can earn additional MEC by checking in daily to the app, completing tasks, participating in
+        the ecosystem, and staking additional tokens they own.</p>
+
+      <h3>Step 5 — Wallet Management</h3>
+      <p>ME PASS also functions as a multi-chain crypto wallet. You can store, send, receive, and swap MEC and other
+        tokens. The wallet supports multiple blockchains.</p>
+
+      <h2>2.3 What UBI Means in Meta Earth and How It Is Distributed</h2>
+      <p>In traditional economics, UBI (Universal Basic Income) is a government-funded program providing regular cash
+        payments to all citizens. Meta Earth's version is fundamentally different:</p>
+
+      <table class="compare-table">
+        <thead>
+          <tr>
+            <th>Aspect</th>
+            <th>Traditional UBI</th>
+            <th>Meta Earth UBI</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="feature">Funded by</td>
+            <td>Taxes / government</td>
+            <td>Token staking yields / ecosystem activity</td>
+          </tr>
+          <tr>
+            <td class="feature">Paid in</td>
+            <td>National currency (cash)</td>
+            <td>MEC tokens</td>
+          </tr>
+          <tr>
+            <td class="feature">Value stability</td>
+            <td>Relatively stable</td>
+            <td>Volatile — depends on token market</td>
+          </tr>
+          <tr>
+            <td class="feature">Who qualifies</td>
+            <td>Citizens of a country</td>
+            <td>Anyone who completes KYC globally</td>
+          </tr>
+          <tr>
+            <td class="feature">Amount</td>
+            <td>Meaningful living support</td>
+            <td>Small; real-world value uncertain</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <p><strong>How it is distributed technically:</strong> Each verified user receives 1 MEC as a permanently staked
+        position. This stake cannot be withdrawn or transferred — it stays staked forever. The staking yield
+        (approximately 12.5% APY) is paid in MEC to your wallet daily. This yield MEC can be transferred and traded.</p>
+
+      <div class="callout warn">
+        <div class="callout-label">Honesty Check</div>
+        <p>12.5% APY on 1 MEC means roughly 0.125 MEC per year, or about 0.000342 MEC per day. The actual dollar value
+          of this depends entirely on the MEC price, which is currently very small. This is symbolic UBI in its current
+          early stage — not a living income.</p>
+      </div>
+
+      <h2>2.4 What "Real Impact" and Rankings Mean</h2>
+      <p>Meta Earth uses a concept called <strong>"Real Impact"</strong> to measure and rank users' contributions to the
+        ecosystem. This scoring system considers factors like:</p>
+      <ul>
+        <li>How active you are in the app (daily check-ins, tasks)</li>
+        <li>How much you stake</li>
+        <li>How many people you have invited/referred</li>
+        <li>How long you have been a verified member</li>
+        <li>Your engagement with ecosystem apps and services</li>
+      </ul>
+
+      <p>Higher Real Impact scores may unlock better rewards, access to special features, or higher-tier status within
+        the community. Think of it as a reputation or engagement score.</p>
+
+      <div class="callout info">
+        <div class="callout-label">Note on Rankings</div>
+        <p>Rankings can incentivize genuine participation but they can also incentivize gaming the system (creating fake
+          activity). Be aware that such systems often reward early adopters disproportionately.</p>
+      </div>
+
+      <h2>2.5 Role of Tokens and How They Are Used</h2>
+      <p>The <strong>MEC token</strong> is central to the Meta Earth ecosystem. Here is what it is used for:</p>
+
+      <ul>
+        <li><strong>UBI distribution</strong> — UBI yields are paid in MEC</li>
+        <li><strong>Staking rewards</strong> — Users stake MEC to earn more MEC</li>
+        <li><strong>Gas fees</strong> — Transactions on ME Network use MEC to pay fees</li>
+        <li><strong>Governance</strong> — MEC holders can (in theory) participate in DAO votes</li>
+        <li><strong>Ecosystem payments</strong> — Used in apps, games, and services built on ME Network</li>
+        <li><strong>Trading</strong> — MEC can be traded on crypto exchanges</li>
+      </ul>
+
+      <p><strong>Token Supply Details:</strong> Total supply is capped at 20 billion MEC. 50% is permanently locked. The
+        remaining 50% is gradually released via staking rewards, with the release rate halving annually (similar to
+        Bitcoin's halving model).</p>
+
+      <h2>2.6 User Journey: From Signup to Daily Participation</h2>
+      <ol>
+        <li><strong>Download ME PASS</strong> — Available on iOS and Android, free of charge</li>
+        <li><strong>Create account</strong> — Email or phone registration</li>
+        <li><strong>Complete KYC</strong> — Submit ID and complete face verification; approval can take hours to days
+        </li>
+        <li><strong>Receive ME ID</strong> — Your unique on-chain identity is issued</li>
+        <li><strong>UBI activates</strong> — 1 MEC is permanently staked; daily yield begins accumulating</li>
+        <li><strong>Daily check-ins</strong> — Log in daily to claim rewards and boost your Real Impact score</li>
+        <li><strong>Optional staking</strong> — Acquire more MEC and stake it for higher yields</li>
+        <li><strong>Explore ecosystem</strong> — Use DeFi features, mini-apps, chat tools, and more as they develop</li>
+      </ol>
+
+      <h2>2.7 Benefits and Limitations of the System</h2>
+
+      <div class="yn-grid">
+        <div class="yn-box yes">
+          <div class="yn-label">Stated Benefits</div>
+          <ul>
+            <li>Free to join; no upfront cost</li>
+            <li>Passive daily UBI token yield</li>
+            <li>Global access — no bank needed</li>
+            <li>Privacy-preserving identity tech (ZKP, FHE)</li>
+            <li>Multi-chain wallet functionality</li>
+            <li>Growing ecosystem of apps</li>
+            <li>Over 800,000 verified users (as of 2025)</li>
+          </ul>
+        </div>
+        <div class="yn-box no">
+          <div class="yn-label">Real Limitations</div>
+          <ul>
+            <li>MEC token value is highly uncertain</li>
+            <li>Not a meaningful living income currently</li>
+            <li>KYC requires sharing personal identity data</li>
+            <li>Cashout relies on P2P deals — complex and risky</li>
+            <li>Platform still largely controlled by founding team</li>
+            <li>Ecosystem is early-stage; many features unproven</li>
+            <li>Token accumulation is very slow for most users</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <div class="summary-box l2">
+      <div class="summary-label">Level 2 Summary</div>
+      <h4>What You Should Know After This Level</h4>
+      <ul>
+        <li>Meta Earth is an ecosystem: ME Network (blockchain) + ME ID (identity) + ME PASS (app) + MEC (token)</li>
+        <li>UBI here is token-based, not cash — value depends on market prices</li>
+        <li>KYC is required; it uses advanced crypto tech but still involves personal data sharing</li>
+        <li>Daily check-ins and staking are how most users earn beyond the base UBI</li>
+        <li>Real Impact is an engagement/reputation score with reward implications</li>
+        <li>The ecosystem is early stage with real but uncertain potential</li>
+      </ul>
+    </div>
+
+    <!-- ===================== LEVEL 3 ===================== -->
+    <div id="level3" class="level-header l3">
+      <div class="level-number">03</div>
+      <div class="level-meta">
+        <div class="level-tag">Critical Understanding</div>
+        <div class="level-title">Advanced — Architecture, Risk & Reality</div>
+      </div>
+    </div>
+
+    <section class="l3-section">
+      <h2>3.1 Architecture Overview</h2>
+      <p>ME Network 2.0 (launched May 19, 2025, at block height 6,624,500) is described as a <strong>modular
+          blockchain</strong>. Understanding modularity is important for grasping how it differs from older blockchains
+        like Ethereum.</p>
+
+      <h3>Monolithic vs Modular Blockchains</h3>
+      <p>Traditional blockchains (like Ethereum Layer 1) handle everything on one chain: executing transactions,
+        ordering them, and storing data. This creates bottlenecks. Modular blockchains split these functions across
+        separate layers:</p>
+
+      <ul>
+        <li><strong>Execution Layer (ME-CI / RollApps)</strong> — Where smart contracts and applications run. Uses
+          CometBFT consensus with optimistic rollups for efficiency. Gas costs reduced by ~90% via ZKP compression using
+          the Groth16 algorithm.</li>
+        <li><strong>Data Availability Layer (ME-DA)</strong> — Where transaction data is stored and made available.
+          Validator nodes are staked with MEC from regional treasuries (India, China, ME_EARTH, USA regions).</li>
+        <li><strong>Cross-Chain Communication (MBC Protocol)</strong> — Enables interaction with external blockchains
+          (Ethereum, BNB Chain, etc.). Uses market-maker prepayments for instant withdrawals, avoiding the typical 7-day
+          Optimistic Rollup delay.</li>
+      </ul>
+
+      <div class="callout purple">
+        <div class="callout-label">Technical Note</div>
+        <p>MEC serves as the unified currency across all layers. Cross-chain mappings (<code>MEC-CI</code> for execution
+          layer gas/governance, <code>MEC-DA</code> for data layer) replace separate native tokens, creating a closed
+          value loop designed to keep economic activity within the ecosystem.</p>
+      </div>
+
+      <h2>3.2 Incentive and Reward Mechanics</h2>
+      <p>Understanding how the reward system actually works at a deeper level reveals both its ingenuity and its risks:
+      </p>
+
+      <h3>The Staking Model</h3>
+      <ul>
+        <li>Total supply: 20 billion MEC</li>
+        <li>50% permanently locked (never enters circulation)</li>
+        <li>50% gradually released as staking rewards</li>
+        <li>Release rate halves annually — similar to Bitcoin's halving</li>
+        <li>Early stakers earn more; later participants earn less per staked unit</li>
+      </ul>
+
+      <h3>The UBI Math (Honest Assessment)</h3>
+      <p>The 12.5% APY on 1 staked MEC sounds attractive. But consider what this means in practice:</p>
+      <ul>
+        <li>1 MEC × 12.5% = 0.125 MEC per year from UBI</li>
+        <li>At a token price of $0.001, that is $0.000125 per year</li>
+        <li>Even at a token price of $1.00, that is only $0.125 per year</li>
+        <li>For UBI to be meaningful, MEC would need to reach substantial prices AND be easily liquidatable</li>
+      </ul>
+
+      <div class="callout danger">
+        <div class="callout-label">Sustainability Question</div>
+        <p>The 12.5% APY yield is funded by releasing new MEC from the supply pool. Constant new token issuance creates
+          inflationary pressure on the token price. As more users join and more MEC is issued, the price per MEC may be
+          suppressed unless real demand grows at the same rate. This is a fundamental tension in the model.</p>
+      </div>
+
+      <h3>The Referral Incentive</h3>
+      <p>Meta Earth incentivizes users to invite others. While this grows the network, it also creates a structural
+        resemblance to referral pyramids where early adopters benefit disproportionately from late joiners. This is not
+        necessarily a scam signal — most networks (including LinkedIn, Airbnb, Uber) use referral systems — but it is
+        worth understanding the dynamic.</p>
+
+      <h2>3.3 Sustainability Questions and Risks</h2>
+
+      <h3>Risk 1 — Token Value Risk</h3>
+      <p>All rewards are denominated in MEC. If MEC has no sustained real-world demand, the ecosystem's UBI and staking
+        yields are economically hollow. The project's long-term value depends entirely on whether the ME Network builds
+        enough real utility to sustain demand for MEC.</p>
+
+      <h3>Risk 2 — Liquidity and Cashout Risk</h3>
+      <p>Reviews indicate that converting MEC to cash currently relies on peer-to-peer (P2P) transactions. This means
+        finding a willing buyer, negotiating a price, and completing the transaction — which is complex, slow, and
+        carries counterparty risk. There is no guaranteed liquid market.</p>
+
+      <h3>Risk 3 — Identity and Privacy Risk</h3>
+      <p>KYC requires submitting a government ID and biometric data. Even with ZKP and FHE technologies, users are
+        trusting the Metaearth Association with sensitive identity data. Questions to consider:</p>
+      <ul>
+        <li>Where is this data physically stored?</li>
+        <li>Under what jurisdiction does the organization operate?</li>
+        <li>What happens to your data if the project fails?</li>
+        <li>Has the security been independently audited?</li>
+      </ul>
+
+      <h3>Risk 4 — Platform Maturity Risk</h3>
+      <p>ME Network 2.0 launched in May 2025. It is very new. Many blockchain projects fail not due to fraud, but due to
+        inability to achieve network effects, technical challenges, or shifting market conditions. The track record is
+        short.</p>
+
+      <h3>Risk 5 — Regulatory Risk</h3>
+      <p>Blockchain projects involving token distribution, UBI claims, and identity systems operate in a complex and
+        rapidly changing regulatory environment. Changes in law in key markets could significantly impact operations.
+      </p>
+
+      <h2>3.4 Governance, Control, and Decentralization Level</h2>
+      <p>This is one of the most important areas for critical thinkers to assess:</p>
+
+      <h3>Current State (2025)</h3>
+      <ul>
+        <li>Founded and led by Patrick Oerer and the Metaearth Association (based in Dubai)</li>
+        <li>Initial validator nodes are funded by regional treasuries controlled by the organization</li>
+        <li>DAO governance is mentioned as a goal but is in early stages</li>
+        <li>Key decisions about protocol upgrades, token economics, and direction remain with the core team</li>
+      </ul>
+
+      <h3>Stated Decentralization Goals</h3>
+      <ul>
+        <li>Future governance guided by DAO (Decentralized Autonomous Organization) proposals</li>
+        <li>Community validator participation planned</li>
+        <li>Open-source development roadmap</li>
+      </ul>
+
+      <div class="callout warn">
+        <div class="callout-label">Critical Observation</div>
+        <p>A blockchain that claims decentralization but is governed by a founding organization is, functionally, a
+          centralized system using blockchain technology. This is not unusual for early-stage projects — even Ethereum
+          was highly centralized early on — but users should understand the difference between the current state and the
+          future vision.</p>
+      </div>
+
+      <h2>3.5 Comparison with Other Systems</h2>
+
+      <h3>Meta Earth vs Bitcoin</h3>
+      <table class="compare-table">
+        <thead>
+          <tr>
+            <th>Dimension</th>
+            <th>Bitcoin</th>
+            <th>Meta Earth</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="feature">Age & Track Record</td>
+            <td>~16 years, established</td>
+            <td>~2 years, early stage</td>
+          </tr>
+          <tr>
+            <td class="feature">Purpose</td>
+            <td>Store of value / payment</td>
+            <td>Identity + UBI + ecosystem</td>
+          </tr>
+          <tr>
+            <td class="feature">Decentralization</td>
+            <td>High (no owner)</td>
+            <td>Low to medium currently</td>
+          </tr>
+          <tr>
+            <td class="feature">Anonymity</td>
+            <td>Pseudonymous</td>
+            <td>Requires KYC verification</td>
+          </tr>
+          <tr>
+            <td class="feature">Token distribution</td>
+            <td>Earned via mining</td>
+            <td>Earned via identity + staking</td>
+          </tr>
+          <tr>
+            <td class="feature">Market liquidity</td>
+            <td>Very high</td>
+            <td>Very low currently</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h3>Meta Earth vs Traditional UBI Concepts</h3>
+      <p>Academic and political UBI proposals (such as those trialed in Finland, Kenya, or Canada) are funded by
+        government redistribution and provide cash in the national currency. Meta Earth's UBI is:</p>
+      <ul>
+        <li>Funded by tokenomics, not taxation</li>
+        <li>Denominated in a volatile digital token, not stable currency</li>
+        <li>Available globally, not limited to a country</li>
+        <li>Far smaller in practical value than most UBI proposals</li>
+        <li>Dependent on ecosystem growth for value — not guaranteed by law</li>
+      </ul>
+
+      <h3>Meta Earth vs Other Blockchain Platforms</h3>
+      <table class="compare-table">
+        <thead>
+          <tr>
+            <th>Platform</th>
+            <th>Focus</th>
+            <th>Identity Required?</th>
+            <th>UBI Mechanism?</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="feature">Ethereum</td>
+            <td>Smart contracts / DeFi</td>
+            <td>No</td>
+            <td>No</td>
+          </tr>
+          <tr>
+            <td class="feature">Worldcoin (World)</td>
+            <td>Digital identity + UBI</td>
+            <td>Yes (iris scan)</td>
+            <td>Yes (WLD token)</td>
+          </tr>
+          <tr>
+            <td class="feature">Pi Network</td>
+            <td>Mobile mining + UBI</td>
+            <td>Yes (KYC)</td>
+            <td>Yes (PI token)</td>
+          </tr>
+          <tr>
+            <td class="feature">Meta Earth</td>
+            <td>Identity + UBI + ecosystem</td>
+            <td>Yes (KYC)</td>
+            <td>Yes (MEC token)</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <div class="callout info">
+        <div class="callout-label">Context</div>
+        <p>Meta Earth occupies the same space as Worldcoin and Pi Network — projects combining identity verification
+          with token-based basic income. All three face the same core challenges: making their token valuable enough for
+          UBI to be meaningful, while scaling without becoming centralized or exploitative.</p>
+      </div>
+
+      <h2>3.6 Ethical, Financial, and Practical Considerations</h2>
+
+      <h3>Ethical Considerations</h3>
+      <ul>
+        <li><strong>Data sovereignty:</strong> Requiring biometric data and government IDs from users — especially in
+          developing countries with less robust data protection laws — raises serious ethical questions about who
+          benefits from and controls that data.</li>
+        <li><strong>Referral incentives:</strong> Systems that reward recruiting new members risk creating pressure on
+          vulnerable populations who may join based on unrealistic income expectations.</li>
+        <li><strong>Token inflation:</strong> If token supply grows faster than demand, early holders benefit at the
+          expense of later joiners — a form of wealth transfer from newcomers to founders and early adopters.</li>
+      </ul>
+
+      <h3>Financial Considerations</h3>
+      <ul>
+        <li>Do not treat MEC token accumulation as financial planning</li>
+        <li>APY figures can be misleading if the token price drops</li>
+        <li>Participation is free, but opportunity cost exists (time, attention, data)</li>
+        <li>Never invest money you cannot afford to lose in MEC or any crypto</li>
+      </ul>
+
+      <h3>Practical Considerations</h3>
+      <ul>
+        <li>Daily check-ins require consistent app engagement — it is designed to be a habit loop</li>
+        <li>The project is headquartered in Dubai — regulatory and legal context differs from Western markets</li>
+        <li>Cashout complexity means accumulated tokens may not be easily converted to spendable money</li>
+      </ul>
+
+      <h2>3.7 What Users SHOULD and SHOULD NOT Expect</h2>
+
+      <div class="yn-grid">
+        <div class="yn-box yes">
+          <div class="yn-label">Reasonable Expectations</div>
+          <ul>
+            <li>A functioning crypto wallet with multi-chain support</li>
+            <li>A verified digital identity on a real blockchain</li>
+            <li>Small daily token accumulation over time</li>
+            <li>Early access to a growing Web3 ecosystem</li>
+            <li>An interesting experiment in digital UBI</li>
+          </ul>
+        </div>
+        <div class="yn-box no">
+          <div class="yn-label">Unrealistic Expectations</div>
+          <ul>
+            <li>Meaningful daily cash income from UBI</li>
+            <li>Guaranteed token price appreciation</li>
+            <li>Easy, instant conversion of MEC to cash</li>
+            <li>A fully decentralized platform (yet)</li>
+            <li>Replacement for a salary or government benefits</li>
+            <li>Comparison to Bitcoin's investment history</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <div class="summary-box l3">
+      <div class="summary-label">Level 3 Summary</div>
+      <h4>What You Should Know After This Level</h4>
+      <ul>
+        <li>ME Network uses a modular blockchain architecture with real technical substance</li>
+        <li>The UBI model is real but the value is negligible unless MEC grows significantly</li>
+        <li>Constant token issuance creates inflation pressure that can suppress price</li>
+        <li>Governance is currently centralized despite decentralization goals</li>
+        <li>Risks include token value, liquidity, privacy, regulatory change, and platform survival</li>
+        <li>The project sits alongside Worldcoin and Pi Network as identity-based UBI experiments — all still unproven
+          at scale</li>
+      </ul>
+    </div>
+
+    <!-- ===================== FINAL ===================== -->
+    <div id="final" class="level-header lf">
+      <div class="level-number">★</div>
+      <div class="level-meta">
+        <div class="level-tag">Practical Guidance</div>
+        <div class="level-title">Final Section — Who, What, and How to Explain It</div>
+      </div>
+    </div>
+
+    <section class="lf-section">
+      <h2>Who Meta Earth May Be Suitable For</h2>
+      <div class="callout info">
+        <div class="callout-label">Potentially a Good Fit</div>
+        <ul>
+          <li><strong>Web3 enthusiasts</strong> who enjoy exploring new blockchain ecosystems early</li>
+          <li><strong>Tech-curious individuals</strong> interested in digital identity and decentralized systems</li>
+          <li><strong>People in regions with limited banking access</strong> who are interested in digital financial
+            tools</li>
+          <li><strong>Those who understand crypto risks</strong> and treat it as exploration, not income planning</li>
+          <li><strong>Developers and builders</strong> interested in building on a new blockchain ecosystem</li>
+          <li><strong>Students and researchers</strong> studying Web3, identity systems, or blockchain economics</li>
+        </ul>
+      </div>
+
+      <h2>Who Should Be Cautious or Avoid It</h2>
+      <div class="callout danger">
+        <div class="callout-label">Exercise Caution or Avoid</div>
+        <ul>
+          <li><strong>Anyone who cannot afford to lose time and data</strong> with an uncertain outcome</li>
+          <li><strong>People in financially vulnerable situations</strong> who are joining because of income promises
+            from others</li>
+          <li><strong>Those with low digital literacy</strong> who may not understand KYC data risks</li>
+          <li><strong>Anyone investing real money</strong> based primarily on UBI yield promises</li>
+          <li><strong>People in regions with strict crypto regulations</strong> — check your local laws first</li>
+          <li><strong>Anyone who was recruited with guaranteed income claims</strong> — these are not accurate</li>
+        </ul>
+      </div>
+
+      <h2>How to Explain Meta Earth Responsibly to Others</h2>
+      <p>If someone asks you about Meta Earth, here are honest, clear framings to use:</p>
+
+      <h3>The One-Sentence Version</h3>
+      <p>"Meta Earth is a blockchain project that gives verified users a digital identity and small daily token rewards,
+        but the actual cash value of those rewards is uncertain and depends on market conditions."</p>
+
+      <h3>The Responsible Explanation</h3>
+      <ul>
+        <li>Tell people it is <strong>free to join but requires sharing identity documents</strong></li>
+        <li>Tell people the UBI is <strong>in tokens, not cash</strong></li>
+        <li>Tell people the <strong>token value can go up or down</strong> — or even to zero</li>
+        <li>Tell people it is an <strong>early-stage experiment</strong>, not a proven financial system</li>
+        <li>Tell people to <strong>never invest money they cannot lose</strong></li>
+        <li>Tell people to <strong>read the documentation themselves</strong> before joining</li>
+      </ul>
+
+      <div class="callout warn">
+        <div class="callout-label">What Not to Say</div>
+        <p>Do not tell people "you will earn X amount per day." Do not compare it to "money printing for everyone." Do
+          not call it a guaranteed passive income. These framings are inaccurate and can harm people who join with false
+          expectations.</p>
+      </div>
+
+      <h2>Key Takeaways</h2>
+      <div class="summary-box lf">
+        <div class="summary-label">Complete Course Summary</div>
+        <h4>Everything in Bullet Points</h4>
+        <ul>
+          <li>Meta Earth is a real blockchain project with a genuine technical architecture (ME Network 2.0)</li>
+          <li>Its core concept — verified digital identity + token-based UBI — is novel and interesting</li>
+          <li>ME PASS is the app; ME ID is your identity; MEC is the token; UBI is daily token yield</li>
+          <li>The UBI is symbolic in current value — not a meaningful income source yet</li>
+          <li>12.5% APY sounds high, but on a tiny token with an uncertain price, the real-world value is very small
+          </li>
+          <li>KYC means you share real personal data — understand this before you join</li>
+          <li>The platform is centrally controlled despite blockchain branding — decentralization is a future goal</li>
+          <li>Cashout relies on P2P deals — there is no guaranteed liquid market for MEC</li>
+          <li>Inflation risk: continuous token issuance can suppress prices unless real demand grows</li>
+          <li>The project is comparable to Worldcoin and Pi Network — all unproven at meaningful scale</li>
+          <li>Participation as a curious experiment = reasonable. Participation as income planning = risky</li>
+          <li>The technology behind it (ZKP, FHE, modular blockchain) is real and worth learning about</li>
+          <li>Think critically, not emotionally. Hype is everywhere in crypto — healthy skepticism protects you</li>
+        </ul>
+      </div>
+
+      <h2>A Final Note on Critical Thinking in Crypto</h2>
+      <p>Meta Earth, like all crypto projects, is best evaluated by separating three questions:</p>
+
+      <ol>
+        <li><strong>Is the technology real?</strong> — In this case, yes. The blockchain infrastructure exists and has
+          been built.</li>
+        <li><strong>Is the economic model sustainable?</strong> — Unclear. It depends on achieving real network effects
+          and utility demand for MEC that matches or exceeds token issuance.</li>
+        <li><strong>Is the governance trustworthy over time?</strong> — Unknown. A young organization with centralized
+          control needs a long track record before strong trust is warranted.</li>
+      </ol>
+
+      <p>No single answer to these questions makes a project a scam or a guaranteed success. Most new projects live in a
+        gray area of genuine ambition with uncertain execution. The honest answer about Meta Earth is: <strong>it is
+          worth watching, worth understanding, and worth being cautious about.</strong></p>
+
+      <div class="callout info">
+        <div class="callout-label">Course Goal Achieved</div>
+        <p>If you have read this course completely, you now understand Meta Earth clearly, can explain it without
+          confusion, can avoid spreading misinformation, and can think critically rather than emotionally about it. That
+          is the goal.</p>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- AFFILIATE / TOOLS SECTION -->
+  <div style="max-width:860px;margin:0 auto;padding:0 24px;">
+
+    <div class="share-section">
+      <div class="share-title">Found this helpful? Share it free.</div>
+      <div class="share-sub">The more people who understand Meta Earth honestly, the better. Share this page.</div>
+      <div class="share-buttons">
+        <a class="share-btn"
+          href="https://twitter.com/intent/tweet?text=Best+honest+Meta+Earth+course+I+found+%E2%80%94+beginner+to+advanced%2C+no+hype&url=https://YOUR-USERNAME.github.io/"
+          target="_blank">Share on X / Twitter</a>
+        <a class="share-btn"
+          href="https://www.reddit.com/submit?url=https://YOUR-USERNAME.github.io/&title=Complete+honest+Meta+Earth+course+-+beginner+to+advanced"
+          target="_blank">Share on Reddit</a>
+        <a class="share-btn"
+          href="https://t.me/share/url?url=https://YOUR-USERNAME.github.io/&text=Complete+honest+Meta+Earth+learning+course"
+          target="_blank">Share on Telegram</a>
+        <a class="share-btn"
+          href="https://wa.me/?text=Complete+honest+Meta+Earth+course+%E2%80%94+beginner+to+advanced%3A+https://YOUR-USERNAME.github.io/"
+          target="_blank">Share on WhatsApp</a>
+      </div>
+    </div>
+
+    <div class="affiliate-section">
+      <div class="affiliate-label">Recommended Tools &amp; Resources</div>
+      <p style="font-size:13px;color:var(--muted);margin-bottom:0;">If you found this course useful, these are tools
+        relevant to your crypto journey. Some links may be affiliate links — meaning this site earns a small commission
+        if you sign up, at no extra cost to you.</p>
+      <div class="affiliate-grid">
+        <a class="affiliate-card" href="https://www.ledger.com/referral" target="_blank" rel="noopener">
+          <div class="affiliate-card-icon">🔐</div>
+          <div class="affiliate-card-name">Ledger Hardware Wallet</div>
+          <div class="affiliate-card-desc">The most trusted way to store crypto offline. Supports MEC and thousands of
+            coins.</div>
+          <span class="affiliate-card-tag">→ Get Ledger</span>
+        </a>
+        <a class="affiliate-card" href="https://coinbase.com/join" target="_blank" rel="noopener">
+          <div class="affiliate-card-icon">💱</div>
+          <div class="affiliate-card-name">Coinbase Exchange</div>
+          <div class="affiliate-card-desc">Regulated crypto exchange. Easy to buy, sell, and convert crypto to cash.
+          </div>
+          <span class="affiliate-card-tag">→ Join Coinbase</span>
+        </a>
+        <a class="affiliate-card" href="https://www.binance.com/en/register" target="_blank" rel="noopener">
+          <div class="affiliate-card-icon">📈</div>
+          <div class="affiliate-card-name">Binance Exchange</div>
+          <div class="affiliate-card-desc">World's largest crypto exchange. Trade hundreds of tokens including Web3
+            projects.</div>
+          <span class="affiliate-card-tag">→ Join Binance</span>
+        </a>
+        <a class="affiliate-card" href="https://www.expressvpn.com/refer-a-friend" target="_blank" rel="noopener">
+          <div class="affiliate-card-icon">🛡️</div>
+          <div class="affiliate-card-name">ExpressVPN</div>
+          <div class="affiliate-card-desc">Stay private online while managing your crypto and digital identity.</div>
+          <span class="affiliate-card-tag">→ Get VPN</span>
+        </a>
+      </div>
+    </div>
+
+    <div class="pdf-cta">
+      <div class="pdf-cta-icon">📄</div>
+      <h3>Download the Full Course as PDF</h3>
+      <p>Save this course offline, share it with friends, or use it for reference anytime — even without internet.</p>
+      <a class="btn-buy" href="https://howler60515.gumroad.com/l/fcjpo" target="_blank">Download PDF — $7</a>
+      <p style="margin-top:12px;font-size:12px;color:var(--muted);">One-time payment · Instant download · No
+        subscription</p>
+    </div>
+
+  </div>
+
+  <footer>
+    META EARTH LEARNING COURSE &nbsp;·&nbsp; EDUCATIONAL USE ONLY &nbsp;·&nbsp; NOT FINANCIAL ADVICE &nbsp;·&nbsp;
+    UPDATED 2025
+    <br><br>
+    <span style="opacity:0.5;">Some links on this page are affiliate links. This site earns a small commission at no
+      cost to you.</span>
+  </footer>
+
+  <!-- STICKY BOTTOM BAR -->
+  <div class="sticky-bar">
+    <span class="sticky-bar-text"><strong>Liked this course?</strong> Download the PDF to keep it forever.</span>
+    <div style="display:flex;gap:8px;flex-shrink:0;">
+      <a class="btn-secondary" href="https://t.me/share/url?url=https://YOUR-USERNAME.github.io/" target="_blank">Share
+        Free</a>
+      <a class="btn-buy" href="https://howler60515.gumroad.com/l/fcjpo" target="_blank">Get PDF — $7</a>
+    </div>
+  </div>
+
+</body>
+
+</html>
